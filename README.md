@@ -59,6 +59,17 @@ Each record includes various URL-based and domain-based features used for classi
 | **CI/CD** | GitHub Actions |
 
 ---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/tanishasagar/phishsense-phishing-detection-ml.git
+cd phishsense-phishing-detection-ml
+
+
+## 🧩 Repository Structure
+
 phishsense-phishing-detection-ml/
 │
 ├─ data/ # Dataset CSVs
@@ -76,16 +87,4 @@ phishsense-phishing-detection-ml/
 ├─ Dockerfile
 ├─ .gitignore
 └─ README.md
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/tanishasagar/phishsense-phishing-detection-ml.git
-cd phishsense-phishing-detection-ml
-
-
-## 🧩 Repository Structure
 
