@@ -53,7 +53,7 @@ Each record includes various URL-based and domain-based features used for classi
 |-----------|-------------------|
 | **Language** | Python 3.11 |
 | **Libraries** | pandas, numpy, scikit-learn, joblib, matplotlib |
-| **Development** | Jupyter Notebook, VS Code |
+| **Development** | Powershell Terminal, Notepad |
 | **Version Control** | Git & GitHub |
 | **Containerization (optional)** | Docker |
 | **CI/CD** | GitHub Actions |
