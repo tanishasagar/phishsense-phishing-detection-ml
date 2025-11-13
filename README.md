@@ -55,36 +55,69 @@ Each record includes various URL-based and domain-based features used for classi
 | **Libraries** | pandas, numpy, scikit-learn, joblib, matplotlib |
 | **Development** | Powershell Terminal, Notepad |
 | **Version Control** | Git & GitHub |
-| **Containerization (optional)** | Docker |
 | **CI/CD** | GitHub Actions |
 
 ---
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/tanishasagar/phishsense-phishing-detection-ml.git
-cd phishsense-phishing-detection-ml
-
 
 ## 🧩 Repository Structure
+```
 
 phishsense-phishing-detection-ml/
 │
-├─ data/ # Dataset CSVs
-├─ notebooks/ # Exploratory analysis and training notebooks
-├─ src/ # Core Python source code
-│ ├─ data_loader.py
-│ ├─ features.py
-│ ├─ model.py
-│ ├─ train.py
-│ └─ predict.py
-├─ models/ # Trained ML models
-├─ docs/ # Reports, visualizations
-├─ tests/ # Unit tests
+├─ data/
+│  ├─ raw/
+│  │  ├─ all_urls.xlsx
+│  │  ├─ Benign_list_big_final.xlsx
+│  │  └─ phishtank.xlsx
+│  │
+│  └─ processed/
+│     ├─ all_combined.xlsx
+│     ├─ all_features.xlsx
+│     └─ sample_features.xlsx
+│
+├─ models/
+│  ├─ baseline_model.joblib
+│  ├─ feature_names.json
+│  └─ phishsense_pipeline.joblib
+│
+├─ notebooks/
+│  └─ (your .ipynb EDA/notebook files)
+│
+├─ src/
+│  ├─ __pycache__/            # compiled bytecode (should be gitignored)
+│  ├─ api.py
+│  ├─ feature_extractor.py
+│  └─ train.py
+│
+├─ logs/
+│  └─ predictions.txt
+│
+├─ phish-sense/               
+│  ├─ data/
+│  ├─ models/
+│  └─ src/
+│
+├─ venv/                      
+│  ├─ Include/
+│  ├─ Lib/
+│  ├─ Scripts/
+│  └─ share/
+│
+├─ add_labels.py
+├─ blacklist.txt
+├─ data_ingest.py
+├─ merge_datasets.py
+├─ quick_retrain.py
 ├─ requirements.txt
-├─ Dockerfile
+├─ retrain_phishsense.py
+├─ sample_and_merge.py
+├─ test_load.py
+├─ train_run_log.txt
+├─ whitelist.txt
 ├─ .gitignore
 └─ README.md
+
 
