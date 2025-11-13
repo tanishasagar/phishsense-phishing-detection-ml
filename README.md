@@ -55,7 +55,6 @@ Each record includes various URL-based and domain-based features used for classi
 | **Libraries** | pandas, numpy, scikit-learn, joblib, matplotlib |
 | **Development** | Powershell Terminal, Notepad |
 | **Version Control** | Git & GitHub |
-| **Containerization (optional)** | Docker |
 | **CI/CD** | GitHub Actions |
 
 ---
@@ -84,7 +83,6 @@ phishsense-phishing-detection-ml/
 ├─ docs/ # Reports, visualizations
 ├─ tests/ # Unit tests
 ├─ requirements.txt
-├─ Dockerfile
 ├─ .gitignore
 └─ README.md
 
