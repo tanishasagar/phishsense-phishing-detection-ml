@@ -25,13 +25,20 @@ The goal of **PhishSense** is to help improve web safety by providing a reliable
 
 ---
 
-## 🧩 Dataset Information
+## 📚 Data Collection
 
-The dataset used in this project contains labeled examples of **phishing** and **legitimate** websites.  
-Each record includes various URL-based and domain-based features used for classification.
+This project uses publicly available datasets from trusted security sources:
+
+- **PhishTank:**  
+  Verified phishing URLs contributed by the security community.  
+  (Used as the primary phishing label source)
+
+- **Kaggle Phishing URL Dataset:**  
+  Contains a large collection of phishing and legitimate URLs along with extracted features.
+
 
 **Key details:**
-- **Source:** (Add your dataset source or mention if it’s custom)  
+- **Source:**  Phishtank and Kaggle
 - **Format:** CSV  
 - **Columns include:**  
   - `URL`
