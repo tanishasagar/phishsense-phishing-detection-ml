@@ -1,0 +1,1 @@
+["url_length", "hostname_length", "path_length", "count_dots", "count_hyphen", "count_at", "count_question", "contains_ip", "subdomain_count", "whois_age_days", "ssl_valid_days", "num_forms", "num_password_inputs", "num_iframes", "contains_login_keyword"]

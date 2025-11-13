@@ -1,0 +1,8 @@
+web.whatsapp.com
+whatsapp.com
+youtube.com
+google.com
+accounts.google.com
+facebook.com
+github.com
+microsoft.com

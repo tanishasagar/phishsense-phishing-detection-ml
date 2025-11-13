@@ -1,0 +1,55 @@
+# --------------------------
+# Python Cache & Temp Files
+# --------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# --------------------------
+# Virtual Environments
+# --------------------------
+venv/
+env/
+ENV/
+.venv/
+
+# --------------------------
+# OS & Editor Junk Files
+# --------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode Settings
+.vscode/
+.vscode/*
+
+# PyCharm
+.idea/
+
+# --------------------------
+# Jupyter Notebook Artifacts
+# --------------------------
+.ipynb_checkpoints/
+
+# --------------------------
+# Logs (optional)
+# --------------------------
+logs/
+*.log
+
+# --------------------------
+# Build / Packaging
+# --------------------------
+build/
+dist/
+*.egg-info/
+
+# --------------------------
+# Environment config
+# --------------------------
+.env
+*.env
+.env.*

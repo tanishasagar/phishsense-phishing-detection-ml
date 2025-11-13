@@ -1,0 +1,5 @@
+url,url_length,hostname_length,path_length,count_dots,count_hyphen,count_at,count_question,contains_ip,subdomain_count,domain,whois_age_days,ssl_valid_days,num_forms,num_password_inputs,num_iframes,contains_login_keyword,label
+http://example.com,18,11,0,1,0,0,0,0,0,example.com,-1,65,0,0,0,0,0
+https://www.paypal.com/signin,29,14,7,2,0,0,0,0,1,paypal.com,-1,266,0,0,0,0,0
+http://192.168.0.1/admin,24,11,6,3,0,0,0,1,0,192.168.0.1,-1,-1,-1,-1,-1,-1,1
+http://bit.ly/2Fake,19,6,6,1,0,0,0,0,0,bit.ly,-1,134,13,0,0,0,1

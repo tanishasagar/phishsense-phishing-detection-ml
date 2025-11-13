@@ -1,0 +1,13 @@
+http://secure-login-example.com/login?user=abc
+kaizenpak.com
+34.237.113.113
+http://example.com/google-login
+http://malicious-login.example/login
+rnicrosoft.com
+www.whatsappweb.com
+http://accounts-google.com/signin/verify
+http://mail.google.verify-user.com/confirm
+http://34.237.113.113/login/verify
+http://example.com.google-accounts.security/login
+http://paypal.verify-account.com/login
+kaizenpak.com
